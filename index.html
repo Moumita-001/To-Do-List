@@ -3,35 +3,25 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>TO DO LIST</title>
+	<title>Weather App</title>
 	<link rel="stylesheet" href="style.css">
 	<script src="script.js"></script>
 </head>
 <body>
-	<header>
-		<h1>My To Do List!</h1>
-		<form id="new-task-form">
-			<input type="text" id="new-task-input" placeholder="What do you have planned?">
-			<input type="submit" value="Add task" id="new-task-submit">	
-		</form>
-	</header>
-
-	<main>
-		<section class="task-list">
-			<h2>Tasks</h2>
-			<div id="tasks">
-				<!-- <div class="task">
-					<div class="content">
-						<input type="text" class="text" value="My Shinny Task" readonly>
-					</div>
-					<div class="actions">
-						<button class="edit">Edit</buttton>
-						<button class="delete">Delete</buttton>
-					</div>
-				</div> -->
-			</div>
-		</section>
-	</main>
+	<div class="card">
+		<div class="search">
+			<input type="text" class="search-bar" placeholder="Search">
+			<button>Search</button>
+		</div>
+	<div class="weather">
+		<h2 class="city">Weather in Denver</h2>
+		<div class="temp">51C</div>
+		<img src="" alt="" class="icon">
+		<div class="description">Cloudy</div>
+		<div class="humidity">Humidity:60%</div>
+		<div class="wind">Wind Speed:6.2km/hr</div>
+	</div>
+</div>
 
 </body>
 </html>
